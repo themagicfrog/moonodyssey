@@ -1,4 +1,8 @@
+import os
+os.environ["SDL_AUDIODRIVER"] = "dummy"  # Disable audio
+os.environ["SDL_VIDEODRIVER"] = "dummy"  # Disable video
 import pygame
+
 import random
 from player import Player
 from game_objects import Potion, Wall
