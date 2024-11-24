@@ -1,0 +1,5 @@
+altgraph @ file:///AppleInternal/Library/BuildRoots/626bfa9c-8221-11ef-b9bf-daac7d5d70b1/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
+future @ file:///AppleInternal/Library/BuildRoots/626bfa9c-8221-11ef-b9bf-daac7d5d70b1/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
+macholib @ file:///AppleInternal/Library/BuildRoots/626bfa9c-8221-11ef-b9bf-daac7d5d70b1/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
+pygame==2.5.2
+six @ file:///AppleInternal/Library/BuildRoots/626bfa9c-8221-11ef-b9bf-daac7d5d70b1/Library/Caches/com.apple.xbs/Sources/python3/six-1.15.0-py2.py3-none-any.whl
