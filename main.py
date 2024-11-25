@@ -1,12 +1,20 @@
 import os
 os.environ["SDL_AUDIODRIVER"] = "dummy"  # Disable audio
 os.environ["SDL_VIDEODRIVER"] = "dummy"  # Disable video
+from flask import Flask
+
 import pygame
 
 import random
 from player import Player
 from game_objects import Potion, Wall
 from constants import *
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello, World!"
 
 class Game:
     def __init__(self):
@@ -595,5 +603,7 @@ class Game:
             self.fade_alpha = max(0, self.fade_alpha - self.fade_speed)
 
 if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
     game = Game()
     game.run() 
